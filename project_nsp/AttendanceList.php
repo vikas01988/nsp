@@ -74,7 +74,7 @@
 			<a href="AttendanceGenerator.php" class="previous" onClick="showAlert()">&laquo; Previous</a>
 			<center>
 				<div>
-					<span>RVCE Transport Management</span>
+					<span>Poornima Transport Management</span>
 				</div>
 			</center>
 		</div>

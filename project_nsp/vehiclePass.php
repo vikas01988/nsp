@@ -85,12 +85,12 @@ button{
 <body>
 <div class="header">
 		<a href="regular.html" class="previous" onClick="showAlert()">&laquo; Previous</a>
-		<center><div><span>RVCE Transport Management</span></div></center><br><br>
+		<center><div><span>Poornima Transport Management</span></div></center><br><br>
 </div>
         <center><label>Vehicle Parking Pass</label></center><br><br>
 <?php session_start(); ?>
 <div class="card" id="card">
-  <img src="RVCE.jpg" alt="Avatar" style="width:100%">
+  <img src="Poornima.jpg" alt="Avatar" style="width:100%">
   <div class="container">
     <p><b>Name</b> <?php echo $_SESSION["name"];?></p>
     <p><b>Member ID</b> <?php echo $_SESSION["id"]; ?><p> 

@@ -81,7 +81,7 @@
 		<div class="listBody"></div>
 		<div class="header">
 		<a href="queryForm.html" class="previous">&laquo; Previous</a>
-		<center><div><span>RVCE Transport Management</span></div></center>
+		<center><div><span>Poornima Transport Management</span></div></center>
 		</div>
 		</br></br>
 		<div class="module">

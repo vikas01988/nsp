@@ -105,7 +105,7 @@ date_default_timezone_set('Asia/Kolkata');
 		<a href="admin.html" class="previous">&laquo; Previous</a>
 		<center>
 			<div>
-				<span>RVCE Transport Management</span>
+				<span>Poornima Transport Management</span>
 			</div>
 		</center>
 	</div>

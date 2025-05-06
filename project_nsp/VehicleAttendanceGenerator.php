@@ -28,7 +28,7 @@
 			<a href="security.html" class="previous">&laquo; Previous</a>
 			<center>
 				<div>
-					<span>RVCE Transport Management</span>
+					<span>Poornima Transport Management</span>
 				</div>
 			</center>
 		</div>
