@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Transport Management</title>
+	<link rel="stylesheet" href="navButton.css">
+	<link rel="stylesheet" href="redirectedPageStyles.css">
+	<script type='text/javascript'>
+		  function showAlert() { 
+			alert ("Session will end here!");
+		  }
+	</script>
+</head>
+
+<body>
+	<div class="body"></div>
+	<div class="header">
+		<a href="Login.html" class="previous" onClick="showAlert()">&laquo; Back to login page</a>
+		<center>
+			<div>
+				<span>RVCE Transport Management System</span>
+			</div>
+		</center>
+	</div>
+	<br><br>
+	<table align="center" style="border-spacing: 30px;">
+		<tr>
+			<td>
+				<div class="module">
+					<form action="VehicleAttendanceGenerator.php" method="post">
+						<label>Vehicle Attendance</label><br><br>
+						<p>Every vehicle registration done by a student is given a unique vehicle ID. Attendance is taken for every parking area available. 
+						On generating the vehicle attendance sheet, you will be able to mark if a vehicle is present in the alloted parking area or not</p>
+						<input type="submit" value="Generate Vehicle Attendance">
+						<br><br>
+					</form>
+				</div>
+			</td>
+			<td>
+				<div class="module">
+					<form action="AttendanceGenerator.php" method="post">
+						<label>Bus Attendance</label><br><br>
+						<p>Every student who enrolls for a college bus, a seat number is alloted.
+						Attendance is taken for every bus seperately. On generating the bus attendance sheet, you will be able to take attendance of a student 
+						associated with that bus.</p>
+						<input type="submit" value="Generate Bus Attendance">
+						<br><br>
+					</form>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

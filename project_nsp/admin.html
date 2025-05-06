@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Transport Management</title>
+	<link rel="stylesheet" href="navButton.css">
+	<link rel="stylesheet" href="redirectedPageStyles.css">
+	<script type='text/javascript'>
+		  function showAlert() { 
+			alert ("Session will end here!");
+		  }
+	</script>
+</head>
+
+<body>
+	<div class="body"></div>
+	<div class="header">
+		<a href="Login.html" class="previous" onClick="showAlert()">&laquo; Back to login page</a>
+		<center>
+			<div>
+				<span>POORNIMA CHODU Transport Management System</span>
+			</div>
+		</center>
+	</div>
+	<br><br>
+	<table align="center" style="border-spacing: 30px;">
+		<tr>
+			<td>
+				<div class="module">
+					<form action="busUpdate.php" method="post">
+						<label>New Bus Registration</label>
+						<br><br>
+						<p><br>An admin can add a new bus into the system by registering the bus details along with the driver details.<br><br></p>
+						<input type="submit" value="Register New Bus">
+						<br><br>
+					</form>
+				</div>
+			</td>
+			<td>
+				<div class="module">
+					<form action="routeUpdate.php" method="post">
+						<label>Route Update</label>
+						<br><br>
+						<p>An admin can update any given route or add new route into the system. A route is updated along with the new stop details that is given by the admin.</p>
+						<input type="submit" value="Update Route">
+						<br><br>
+					</form>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="module">
+					<form action="driverUpdate.php" method="post">
+						<label>Update Driver Details</label>
+						<br><br>
+						<p>An admin can update the driver details of an already existing record of a college bus.</p>
+						<input type="submit" value="Update Driver">
+						<br><br>
+					</form>
+				</div>
+			</td>
+			<td>
+				<div class="module">
+					<form action="queryForm.html" method="post">
+						<label>Database</label>
+						<br><br>
+						<p>An admin can retrive data from the transport database by writing corresponding queries</p>
+						<input type="submit" value="Query Database">
+						<br><br>
+					</form>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

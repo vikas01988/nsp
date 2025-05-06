@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+	position: relative;
+}
+
+a:hover {
+    background-color: #b4b5ba;
+    color: black;
+}
+
+.previous {
+    background-color: #262626;
+	border-radius: 5px;
+    color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	opacity:0.85;
+}
+
+.next-block {
+    background-color: #f1f1f1;
+    color: black;
+	left: 60%;
+}
+.next-block:hover{
+	background-color: #f1f1f1;
+	color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+	left: 60%
+}
+
+.round {
+    border-radius: 100%;
+}

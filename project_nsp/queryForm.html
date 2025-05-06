@@ -1,0 +1,40 @@
+<html>
+<head>
+<link rel="stylesheet" href="navButton.css">
+<link rel="stylesheet" href="formStyles.css">
+</head>
+<body>  
+<div class="body"></div>
+<div class="header">
+			<a href="admin.html" class="previous">&laquo; Previous</a>
+			<center>
+				<div>
+					<span>RVCE Transport Management</span>
+				</div>
+			</center>
+		</div>
+		</br></br>
+
+<div style="text-align: center;"><div class="container">
+<center><label>Query Form</label></center>
+<form method="post" action="queryDB.php">  
+    
+		SELECT<br> <textarea id="select" name="select" rows="5" cols="40"></textarea>
+				<br><br>
+		FROM<br> <textarea id="from" name="from" rows="5" cols="40"></textarea>
+				<br><br>
+		WHERE<br> <textarea id="where" name="where" rows="5" cols="40"></textarea>
+				<br><br>
+		GROUP BY<br> <textarea id="groupby" name="groupby" rows="5" cols="40"></textarea>
+				<br><br>
+		HAVING<br> <textarea id="having" name="having" rows="5" cols="40"></textarea>
+				<br><br>
+		ORDER BY<br> <textarea id="orderby" name="orderby" rows="5" cols="40"></textarea>
+				<br><br>
+		<input type="submit" name="submit" value="Submit"> 
+	</form>
+</div>
+</div>
+
+</body>
+</html>

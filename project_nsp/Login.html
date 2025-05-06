@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - College Transport</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: url('wallpaper-3584226.jpg') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.75);
+      z-index: 0;
+    }
+
+    .login-container {
+      position: relative;
+      z-index: 1;
+      background: rgba(0, 0, 0, 0.85);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 40px rgba(0, 255, 255, 0.2);
+      width: 400px;
+    }
+
+    h2 {
+      color: #00f7ff;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      color: #ddd;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #555;
+      background-color: #1b1b1b;
+      color: #fff;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #00f7ff;
+      border: none;
+      border-radius: 6px;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #00c2d3;
+    }
+
+    .bottom-text {
+      text-align: center;
+      color: #ccc;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .bottom-text a {
+      color: #00f7ff;
+      text-decoration: none;
+    }
+
+    .bottom-text a:hover {
+      text-decoration: underline;
+    }
+
+    .forgot-link {
+      text-align: right;
+      margin-top: -15px;
+      margin-bottom: 15px;
+    }
+
+    .forgot-link a {
+      font-size: 13px;
+      color: #aaa;
+      text-decoration: none;
+    }
+
+    .forgot-link a:hover {
+      color: #00f7ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm" action="Login.php" method="POST">
+      
+
+      <div class="form-group">
+        <label for="roll">Username</label>
+        <input type="text"  name="uname" placeholder="Enter your Username" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="psw" placeholder="Enter your Password" required>
+      </div>
+
+     
+
+      <input type="submit" value="Login" class="btn"/>
+    
+    </form>
+
+    
+  </div>
+
+ 
+
+</body>
+</html>

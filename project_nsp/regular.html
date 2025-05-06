@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Transport Management Login</title>
+	<link rel="stylesheet" href="navButton.css">
+	<link rel="stylesheet" href="redirectedPageStyles.css">
+	<script type='text/javascript'>
+		  function showAlert() { 
+			alert ("Session will end here!");
+		  }
+	</script>
+</head>
+
+<body>	
+	<div class="body"></div>
+	<div class="header">
+		<a href="Login.html" class="previous" onClick="showAlert()">&laquo; Back to login page</a>
+		<center>
+			<div>
+				<span>RVCE Transport Management System</span>
+			</div>
+		</center>
+	</div>
+	<br><br>
+	<table align="center" style="border-spacing: 30px;">
+		<tr>
+			<td>
+				<div class="module">
+					<form action="vehicleForm.php" method="post">
+						<label>Vehicle Registration</label>
+						<br><br>
+						<p>A student can park his/her personal vehicle in the available parking areas on campus. A student needs to register his/her vehicle details. On completion of registration, a parking lot along with a parking slot will be assigned to that student.</p>
+						<input type="submit" value="Register for Parking Area">
+						<br><br>
+					</form>
+				</div>
+			</td>
+			<td>
+				<div class="module">
+					<form action="busForm.php" method="post">
+						<label>Bus enrollment</label>
+						<br><br>
+						<p>A student can make use of the bus facility provided by the college. A student needs to register for a route provided by the college. On completion of registration a bus number along with the seat number will be assigned to that student.</p>
+						<input type="submit" value="Enroll for College Bus">
+						<br><br>
+					</form>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

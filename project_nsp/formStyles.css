@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+.error {color: #FF0000; padding:20px;}
+* {
+    box-sizing: border-box;
+}
+body{
+	background: #000;
+}
+.body{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left:0px;
+	width: auto;
+	height: 100%;
+	background-image: url("bg-3.jpg");
+	background-size: cover;
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-filter: brightness(100%);
+	filter: brightness(100%);
+	opacity: 0.7;
+	z-index: 0;
+}
+.header{
+	position: relative;
+	padding: 20px;
+	z-index: 2;
+}
+
+.header div{
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight:1000;
+	
+}
+
+.header div span{
+	color: #fff !important;
+}
+input[type=text], select, textarea, input[type=number] {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+.background{
+	background-image : url('bus.jpg');
+	background-size: cover;
+}
+.container {
+	display: inline-block;
+	text-align: left;
+	width:50%;
+	position: relative;
+    border-radius: 25px;
+	background: rgb(255, 255, 255);
+	background-color:  rgba(255, 255, 255, 0.85);
+	font-family: 'Exo', sans-serif;
+}
+.container form{
+	padding-left:calc(20% - 0px);
+}
+.container input[type=submit]{
+	width: 20%;
+	height: 35px;
+	background: #262626;
+	border: 1px solid #000;
+	cursor: pointer;
+	border-radius: 10px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-left:auto;
+    margin-right:auto;
+	margin-top: 10px;
+	position:relative;
+	text-align: center;
+}
+
+.container input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.container input[type=submit]:active{
+	opacity: 0.6;
+}
+
+.container input[type=submit]:focus{
+	outline: none;
+}
+.container label{
+	width: 300px;
+	border-radius: 5px;
+	background: rgb(77,77,77);
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	padding: 10px;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+input[type=submit] {
+        width: 50%;
+        margin-top: 0;
+    }
+}
